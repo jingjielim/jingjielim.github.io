@@ -71,9 +71,6 @@ $(() => {
     } else {
       txt = fullTxt.substring(0, txt.length + 1)
     }
-    // if (txt === lastTxt) {
-    //   completed = true
-    // }
     if (isDeleting) { delta = 50 }
 
     if (!isDeleting && txt === fullTxt) {

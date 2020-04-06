@@ -26,7 +26,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #3eabeb;
-  --secondary: #6c757d;
+  --secondary: #52504f;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -10206,4 +10206,55 @@ i {
   margin: 1rem;
   background-color: #fff;
   width: 100px;
+}
+
+.fa-chevron-down{
+  color: #fff;
+}
+.fa-chevron-down:hover{
+  color: #3eabeb;
+}
+.bounce {
+	-webkit-animation: bounce 2s;
+	        animation: bounce 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
+}
+
+@keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
 }
