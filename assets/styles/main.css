@@ -10214,12 +10214,22 @@ i {
   width: 100px;
 }
 
+.mail-link {
+  color: #52504f;
+}
+
+.mail-link:hover {
+  color: #52504f;
+}
+
 .fa-chevron-down{
   color: #fff;
 }
+
 .fa-chevron-down:hover{
   color: #3eabeb;
 }
+
 .bounce {
 	-webkit-animation: bounce 2s;
 	        animation: bounce 2s;
