@@ -10189,21 +10189,27 @@ i {
   color: #0072b1;
 }
 
+.card {
+  background: #52504f;
+  color: #fff;
+}
+
 .project-link {
   color: rgba(255,255,255,0.8);
   border-radius: 50px;
-  background-color: #52504f;
+  background-color: #3eabeb;
 }
 
 .project-link:hover {
   border: solid 1px #fff;
   border-radius: 50px;
-  background-color: #52504f;
+  background-color: #3eabeb;
   color: #fff;
 }
 
 .project-hr {
-  margin: 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
   background-color: #fff;
   width: 100px;
 }
