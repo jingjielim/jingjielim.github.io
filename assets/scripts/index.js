@@ -71,9 +71,9 @@ $(() => {
     } else {
       txt = fullTxt.substring(0, txt.length + 1)
     }
-    if (txt === lastTxt) {
-      completed = true
-    }
+    // if (txt === lastTxt) {
+    //   completed = true
+    // }
     if (isDeleting) { delta = 50 }
 
     if (!isDeleting && txt === fullTxt) {
@@ -82,7 +82,7 @@ $(() => {
     } else if (isDeleting && txt === '') {
       isDeleting = false
       i++
-      fullTxt = toRotate[i%3]
+      fullTxt = toRotate[i % 3]
       delta = 70 - Math.random() * 20
     }
     if (txt === fullTxt) {
