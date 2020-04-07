@@ -10182,11 +10182,11 @@ i {
 }
 
 .fa-github-square {
-  color: #6e5494;
+  color: #52504f;
 }
 
 .fa-linkedin  {
-  color: #0072b1;
+  color: #52504f;
 }
 
 .card {
@@ -10194,16 +10194,29 @@ i {
   color: #fff;
 }
 
-.project-link {
+.link-blue {
   color: rgba(255,255,255,0.8);
   border-radius: 50px;
   background-color: #3eabeb;
 }
 
-.project-link:hover {
+.link-blue:hover {
   border: solid 1px #fff;
   border-radius: 50px;
   background-color: #3eabeb;
+  color: #fff;
+}
+
+.link-grey {
+  color: rgba(255,255,255,0.8);
+  border-radius: 50px;
+  background-color: #52504f;
+}
+
+.link-grey:hover{
+  border: solid 1px #fff;
+  border-radius: 50px;
+  background-color: #52504f;
   color: #fff;
 }
 
