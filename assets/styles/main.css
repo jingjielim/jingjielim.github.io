@@ -2446,7 +2446,7 @@ textarea.form-control {
 }
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(62, 171, 235, 0.25);
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -10218,6 +10218,14 @@ i {
   border-radius: 50px;
   background-color: #52504f;
   color: #fff;
+}
+
+.link-grey:focus {
+  color: rgba(255,255,255,0.8);
+  border-radius: 50px;
+  background-color: #52504f;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(82, 80, 79, 0.25);
 }
 
 .project-hr {
